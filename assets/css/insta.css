@@ -1,0 +1,96 @@
+.cardwraper .card{
+    width: 22em;
+    height: 25em;
+    margin-top: 0.7em;
+   
+   
+    border-radius: 0px;
+
+}
+.texthead{
+    margin-top: 2em;
+}
+.textwraper input{
+    width: 20.6em;
+    padding: 1em;
+    height: 2.8em;
+    border-radius: 4px;
+    border: none;
+    border: 1px solid rgb(222, 221, 221); 
+    font-size: 13px;
+    background-color: #FAFAFA;
+}
+.btnwraper button{
+    width: 16.8em;
+    height: 2.1em;
+    background-color: #1895F6;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+.btnwraper button:hover{
+   
+    background-color: #1877F2;
+   
+}
+.orwraper{
+    display: flex;
+    justify-content: center;
+}
+.one{
+   width: 7em;
+   border-top: 1px solid ;
+   margin-top: 1.6em;
+   margin-right: 5px;
+}
+.orclass{
+    margin-top: 0.8em;
+}
+.two{
+    width: 8em;
+    border-top: 1px solid ;
+    margin-top: 1.6em;
+    margin-left: 5px;
+ }
+ .secondbox .card{
+     width: 22em;
+     height: 4em;
+    
+    border-radius: 0px;
+ }
+.cardsecond .textwraper{
+    
+   
+    margin-top: 0.7em;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   
+}
+.bottomimg .card{
+    width: 22em;
+    height: 6em;
+   
+}
+
+
+
+
+.cardsecond .imagecard{
+    margin-top: 0.7em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.footerone a{
+    text-decoration: none;
+    font-size: small;
+    margin: 4px;
+    color: gray;
+}
+.footertwo{
+    font-size: medium;
+    color: gray;
+}
