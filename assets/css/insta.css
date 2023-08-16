@@ -53,10 +53,9 @@
     margin-top: 1.6em;
     margin-left: 5px;
  }
- .secondbox .card{
+ .cardfirst .card{
      width: 22em;
      height: 4em;
-    
     border-radius: 0px;
  }
 .cardsecond .textwraper{
