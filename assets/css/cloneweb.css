@@ -1,0 +1,201 @@
+*{
+  /* font-family: 'Cormorant Garamond', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rajdhani', sans-serif; */
+}
+.navbar-nav li {
+  font-weight: 500;
+}
+
+.banerwraper {
+  background-color: #f8f9fd;
+  height: 31em;
+}
+.secondwraper h1 {
+  font-weight: bold;
+  color: #ff5733;
+  font-size: 3em;
+  margin-top: 8%;
+  font-family: 'Montserrat', sans-serif;
+}
+.secondwraper h1 span {
+  color: #01036f;
+  border-bottom: 5px solid #ff5733;
+}
+.secondwraper h2 {
+  color: #01036f;
+  margin-top: 2%;
+  word-wrap: break-word;
+  font-size: 16px;
+    line-height: inherit;
+    font-family: 'Montserrat', sans-serif;
+}
+.top-right-img img {
+  width: 23em;
+}
+.secondwraper .btn button {
+  margin-top: 2%;
+  width: 10.5em;
+  height: 2.8em;
+  border-radius: 5em;
+  border: 0px;
+  background-color: #ff5733;
+  color: white;
+  font-weight: 500;
+}
+.checkwraper span {
+  color: gray;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}
+.checkwraper h2 {
+  color: #01036f;
+  font-weight: bold;
+  font-size: 2.4em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cardline .card {
+  box-shadow: 0px 10px 10px 2px #efeded;
+  border: none;
+  height: 23em;
+  margin-top: 3em;
+  color:#444444; 
+}
+.cardline .card h3{
+  font-family: sans-serif;
+}
+.cardline .card p{
+  font-family:  sans-serif;
+  color:#444444 ;
+}
+.fivewraper {
+  background-color: #f8f9fd;
+  height: 26em;
+}
+.sevenwraper {
+  background-color: #f8f9fd;
+  height: 26em;
+}
+.ninewraper {
+    background-color: #f8f9fd;
+    height: 26em;
+  }
+.contentone h3 {
+  color: #01036f;
+  font-family: 'Montserrat', sans-serif;
+}
+.contentone p {
+  font-family:  sans-serif;
+  color:#444444 ;
+}
+.contentone button {
+  width: 12em;
+  height: 2.5em;
+  border: none;
+  background-color: #ff5733;
+  border-radius: 5em;
+  color: white;
+}
+.accordian{
+  background-color: #f8f9fd;
+}
+
+.accordion{
+  font-family: "Poppins", sans-serif;
+}
+
+.faq-caps p{
+  color: gray;
+  font-weight: bold;
+}
+.faq-caps h1{
+  color: #01036f;
+  font-weight: bold;
+}
+.footer{
+  background-color: #010351;
+}
+.cardfooter .card{
+  border-top: 5px solid #FF5733;
+  background-color: #010246;
+  height: 17em;
+  
+}
+.cardfooter .card h3{
+      color: white;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+}
+.cardfooter .card p{
+  color: white;
+  text-align: center;
+  font-family:  sans-serif;
+}
+.cardfooter .card strong{
+  color: white;
+  text-align: center;
+}
+.servicelink{
+  margin-left: -10px;
+}
+.servicelink li{
+  list-style: none;
+  margin-right: 10px;
+  margin-top: 20px;
+  
+}
+.servicelink li a{
+  text-decoration: none;
+  margin: 2px;
+  font-size:small;
+  font-size: 15px;
+  color: white;
+
+}
+.servicelink p{
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+}
+.Copyrightline{
+  background-color: #010351;
+  border-top: 1px solid rgb(79, 79, 79);
+}
+@media only screen and (max-width: 600px) {
+  .banerwraper {
+    height: 40em;
+  }
+  .top-right-img img {
+    width: 12em;
+  }
+  .secondwraper h1 {
+    font-size: 1.8em;
+    margin-top: 8%;
+  }
+  .secondwraper p {
+    font-size: 20px;
+  }
+  .secondwraper .btn {
+    display: flex;
+    justify-content: center;
+  }
+  .checkwraper h2 {
+    font-weight: bold;
+    font-size: 2em;
+  }
+  .cardline .card {
+    box-shadow: 2px 4px 10px 10px #d8d6d6;
+    width: 23em;
+    height: 18em;
+  }
+  .fivewraper {
+    height: 60em;
+  }
+  .sevenwraper {
+    height: 60em;
+  }
+  .ninewraper {
+    height: 60em;
+  }
+}
