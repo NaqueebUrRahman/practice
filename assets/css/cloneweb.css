@@ -187,8 +187,8 @@
   .cardline .card {
     box-shadow: 2px 4px 10px 10px #d8d6d6;
     display: flex;
-    margin-left: 1em;
-    width: 18em;
+    margin-left: 0.5em;
+    width: 20em;
     height: 18em;
   }
   .fivewraper {
