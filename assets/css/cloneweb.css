@@ -3,6 +3,7 @@
   font-family: 'Montserrat', sans-serif;
   font-family: 'Rajdhani', sans-serif; */
 }
+
 .navbar-nav li {
   font-weight: 500;
 }
@@ -163,6 +164,9 @@
   border-top: 1px solid rgb(79, 79, 79);
 }
 @media only screen and (max-width: 600px) {
+  .container{
+    margin-top: -8px;
+  }
   .banerwraper {
     height: 40em;
   }
@@ -184,10 +188,12 @@
     font-weight: bold;
     font-size: 2em;
   }
+  .cardwraper{
+    display: flex;
+    justify-content: center;
+  }
   .cardline .card {
     box-shadow: 2px 4px 10px 10px #d8d6d6;
-    display: flex;
-    margin-left: 0.5em;
     width: 20em;
     height: 18em;
   }
